@@ -1,0 +1,83 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headering {
+    width: 100%;
+    height: 100vh;
+    background-image: image_url("header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.headering p {
+    font-size: 80px;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    text-align: center;
+    color: #0062cca1;
+    padding-top: 40vh;
+}
+
+.intro {
+    background-color: #e5ebf1;
+    width: 100%;
+    height: 75vh;
+}
+.about {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 48px;
+}
+
+.about h1, h2, h3 {
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+}
+
+.about h3 {
+    font-size: 1.3rem;
+    color: #ffc107;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding-top: 48px;;
+}
+
+.item1 {
+    padding-left: 10em;
+    padding-right: 6em;
+}
+
+.item2 {
+    padding-left: 6em;
+    padding-right: 8em;
+}
+
+
+img.myicon {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
