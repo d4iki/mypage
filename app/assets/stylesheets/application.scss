@@ -66,8 +66,8 @@ body {
 }
 
 .item2 {
-    padding-left: 6em;
-    padding-right: 8em;
+    padding-left: 5em;
+    padding-right: 3em;
 }
 
 
@@ -80,4 +80,103 @@ img.myicon {
 li {
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+.skill {
+    background-color: #d8dfe3;
+    width: 100%;
+    height: 65vh;
+}
+.skill-header {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.skill-header h1, h2, h3 {
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+    color: black;
+}
+
+.skill-header h3 {
+    font-size: 1.3rem;
+    color: #ffc107;
+    margin: 0;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill-item {
+    width: 25%;
+    text-align: center;
+}
+
+.skill-item p {
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+img.rubyicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+img.pythonicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+img.javaicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+img.mysqlicon {
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+}
+
+.contact p {
+    text-align: center;
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+    font-size: 24px;
+    margin-bottom: 3rem;
+
+}
+
+.contact-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contact-header h1, h2, h3 {
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+    color: black;
+}
+
+.contact-header h3 {
+    font-size: 1.3rem;
+    color: #ffc107;
+    margin: 0;
+}
+
+.snsicons {
+    text-align: center;
+}
+img {
+    width: 64px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
